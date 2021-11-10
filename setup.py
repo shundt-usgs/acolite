@@ -12,14 +12,41 @@ long_description = \
     but can also be applied over clear waters and land with reasonable success.
 """ 
 
-setup(name="acolite",
-      description=long_description,
-      long_description=long_description,      
-      author="Quinten Vanhellemont",
-      author_email='qvanhellemont@naturalsciences.be',
-      url='https://github.com/acolite/acolite',
-      download_url = 'https://github.com/jtwhite79/pyemu/tarball/1.1.0',
-      license='?',
-      platforms='Windows, Mac OS-X, Linux',
-      packages = ["acolite"],
-      version="20210802.0")
+setup(
+    name="acolite"
+    , description=long_description
+    , long_description=long_description     
+    , author="Quinten Vanhellemont"
+    , author_email='qvanhellemont@naturalsciences.be'
+    , url='https://github.com/acolite/acolite'
+    , download_url = 'https://github.com/jtwhite79/pyemu/tarball/1.1.0'
+    , license='?'
+    , platforms='Windows, Mac OS-X, Linux'
+    , version="20210802.0"
+    , packages = [
+        "acolite"
+        , "acolite.landsat"
+        , "acolite.sentinel2"
+        , "acolite.sentinel3"
+        , "acolite.planet"
+        , "acolite.pleiades"
+        , "acolite.worldview"
+        , "acolite.venus"
+        , "acolite.chris"
+        , "acolite.prisma"
+        , "acolite.hico"
+        , "acolite.hyperion"
+        , "acolite.desis"
+        , "acolite.gf"
+        , "acolite.ac"
+        , "acolite.aerlut"
+        , "acolite.output"
+        , "acolite.shared"
+        , "acolite.dem"
+        , "acolite.tact"
+        , "acolite.acolite"
+        , "acolite.adjacency"
+        , "acolite.gem"
+        , "acolite.parameters"
+    ]
+)
