@@ -30,6 +30,7 @@ setup(
         , "acolite.sentinel3"
         , "acolite.planet"
         , "acolite.pleiades"
+        , "acolite.pleiades.geo"
         , "acolite.worldview"
         , "acolite.venus"
         , "acolite.chris"
