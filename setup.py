@@ -23,5 +23,5 @@ setup(
     , license='?'
     , platforms='Windows, Mac OS-X, Linux'
     , version="20210802.0"
-    , packages = find_packages(where='acolite')
+    , packages = find_packages()
 )
