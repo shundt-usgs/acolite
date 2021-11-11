@@ -1,31 +1,31 @@
-from . import landsat
-from . import sentinel2
-from . import sentinel3
-from . import planet
-from . import pleiades
-from . import worldview
-from . import venus
+from acolite import landsat
+from acolite import sentinel2
+from acolite import sentinel3
+from acolite import planet
+from acolite import pleiades
+from acolite import worldview
+from acolite import venus
 
-from . import chris
-from . import prisma
-from . import hico
-from . import hyperion
-from . import desis
+from acolite import chris
+from acolite import prisma
+from acolite import hico
+from acolite import hyperion
+from acolite import desis
 
-from . import gf
+from acolite import gf
 
-from . import ac
-from . import aerlut
-from . import output
-from . import shared
-from . import dem
+from acolite import ac
+from acolite import aerlut
+from acolite import output
+from acolite import shared
+from acolite import dem
 
-from . import tact
-from . import acolite
-from . import adjacency
+from acolite import tact
+from acolite import acolite
+from acolite import adjacency
 
-from . import gem
-from . import parameters
+from acolite import gem
+from acolite import parameters
 
 import os
 code_path = os.path.dirname(os.path.abspath(__file__))
