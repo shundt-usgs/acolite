@@ -1,6 +1,6 @@
 import sys
 #from distutils.core import setup
-from setuptools import setup
+from setuptools import setup, find_packages
 
 long_description = \
 """
@@ -23,31 +23,5 @@ setup(
     , license='?'
     , platforms='Windows, Mac OS-X, Linux'
     , version="20210802.0"
-    , packages = [
-        "acolite"
-        , "acolite.landsat"
-        , "acolite.sentinel2"
-        , "acolite.sentinel3"
-        , "acolite.planet"
-        , "acolite.pleiades"
-        , "acolite.pleiades.geo"
-        , "acolite.worldview"
-        , "acolite.venus"
-        , "acolite.chris"
-        , "acolite.prisma"
-        , "acolite.hico"
-        , "acolite.hyperion"
-        , "acolite.desis"
-        , "acolite.gf"
-        , "acolite.ac"
-        , "acolite.aerlut"
-        , "acolite.output"
-        , "acolite.shared"
-        , "acolite.dem"
-        , "acolite.tact"
-        , "acolite.acolite"
-        , "acolite.adjacency"
-        , "acolite.gem"
-        , "acolite.parameters"
-    ]
+    , packages = find_packages(where='acolite')
 )
