@@ -1,6 +1,6 @@
 import sys
 #from distutils.core import setup
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 long_description = \
 """
@@ -23,5 +23,5 @@ setup(
     , license='?'
     , platforms='Windows, Mac OS-X, Linux'
     , version="20210802.0"
-    , packages = find_packages()
+    , packages = find_namespace_packages()
 )
